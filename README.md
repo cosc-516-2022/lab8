@@ -17,15 +17,15 @@ Login to AWS. In the AWS console, click on `Services` then select `Amazon Redshi
 
 Click on `Create cluster`. 
 
-<img src="https://github.com/JumarAlam/COSC516Redshift/blob/master/img/Screenshot%20(13).png" alt="Create Cluster">
+<img src="img/Screenshot%20(13).png" alt="Create Cluster">
 
 For cluster identifier use a unique identifier and select free trial. 
 
-<img src="https://github.com/JumarAlam/COSC516Redshift/blob/master/img/Screenshot%20(14).png" alt="Database Configuration" >
+<img src="img/Screenshot%20(14).png" alt="Database Configuration" >
 
 Enter a login ID and password for admin user of your database. Finally click on `Create cluster`.
 
-<img src="https://github.com/JumarAlam/COSC516Redshift/blob/master/img/Screenshot%20(15).png" alt="Database Configuration" >
+<img src="img/Screenshot%20(15).png" alt="Database Configuration" >
 
 
 
@@ -43,8 +43,8 @@ Click on `Edit the inbound rules`. In the next screen, `Add rule` that allows al
 You can test your queries in SQuirreL SQL or SQL Workbench/J
 
 Before working with SQuirreL, you have to configure it with the JDBC driver given in the lib folder and other cluster information.
-<img src="https://github.com/JumarAlam/COSC516Redshift/blob/master/img/Screenshot%20(20).png" alt="Database Configuration" >
-<img src="https://github.com/JumarAlam/COSC516Redshift/blob/master/img/Screenshot%20(21).png" alt="Database Configuration" >
+<img src="img/Screenshot%20(20).png" alt="Database Configuration" >
+<img src="img/Screenshot%20(21).png" alt="Database Configuration" >
 
 You can also use the Redshift Query Editor V2 to test your queries directly on your database without installing any other GUI softwares.
 
