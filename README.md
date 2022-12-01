@@ -11,7 +11,7 @@ The free tier account allows for free trials forever and 12-months free offers f
 Login to AWS. In the AWS console, click on `Services` then select `Amazon Redshift`.
 
 
-![AWS RDS Dashboard](https://github.com/JumarAlam/COSC516Redshift/blob/master/img/Screenshot%20(12).png)
+![AWS RDS Dashboard](img/Screenshot%20(12).png)
 
 ## Amazon Redshift
 
