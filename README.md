@@ -62,7 +62,7 @@ To test your database, write Java code using [Visual Studio Code](https://code.v
 
 - +4 marks - Write the method `query1()` that returns the most recent top 10 orders with the total sale and the date of the order for customers in `America`.
 
-- +4 marks - Write the method `query2()` that returns the customer key and the total price a customer spent in descending order, for all urgent orders that are not failed for all customers who are outside Europe and belong to the highest market segment. The highest market segment is the market segment with the most orders.
+- +4 marks - Write the method `query2()` that returns the customer key and the total price a customer spent in descending order, for all urgent orders that are not failed for all customers who are outside Europe and belong to the largest market segment. The largest market segment is the market segment with the most customers.
 
 - +3 marks - Write the method `query3()` that returns a count of all the lineitems that were ordered within the six years starting on April 1st, 1997 group by order priority. Make sure to sort by orderpriority in ascending order.
 
