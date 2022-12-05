@@ -60,11 +60,11 @@ To test your database, write Java code using [Visual Studio Code](https://code.v
 
 - +3 marks - Write the method  `insert()` to add the standard TPC-H data into the database. The DDL files are in the ddl folder. **Hint: Files are designed so can read entire file as a string and execute it as one statement. May need to divide up into batches for large files.**
 
-- +4 marks - Write the method `query1()` that returns the most recent top 10 orders with the total sale and the date of the order in `America`.
+- +4 marks - Write the method `query1()` that returns the most recent top 10 orders with the total sale and the date of the order for customers in `America`.
 
-- +4 marks - Write the method `query2()` that returns the customer key and the total price a customer spent in descending order, for all urgent orders that are not failed for all customers who are outside Europe belonging to the highest market segment.
+- +4 marks - Write the method `query2()` that returns the customer key and the total price a customer spent in descending order, for all urgent orders that are not failed for all customers who are outside Europe and belong to the highest market segment. The highest market segment is the market segment with the most orders.
 
-- +3 marks - Write the method `query3()` that returns all the lineitems that was ordered within the six years from January 4th, 1997 and the orderpriority in ascending order.
+- +3 marks - Write the method `query3()` that returns a count of all the lineitems that were ordered within the six years starting on April 1st, 1997 group by order priority. Make sure to sort by orderpriority in ascending order.
 
 **Total Marks: 20**
 
